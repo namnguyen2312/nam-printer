@@ -1,6 +1,6 @@
 {
   "name": "react-native-bluenet-printer-pos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-Native plugin for the bluetooth ESC/POS printers.",
   "main": "index.js",
   "scripts": {
