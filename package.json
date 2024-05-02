@@ -9,17 +9,17 @@
   "keywords": [
     "printer"
   ],
-  "author": "test",
+  "author": "nam",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.55.4"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/namnguyen2312/nam-printer"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/namnguyen2312/nam-printer"
   },
   "homepage": ""
 }
