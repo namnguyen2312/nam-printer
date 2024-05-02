@@ -1,5 +1,5 @@
 {
-  "name": "nam-printner",
+  "name": "nam-printner-test",
   "version": "1.0.0",
   "description": "React-Native plugin for the bluetooth ESC/POS printers.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "printer"
+    "printer-test"
   ],
   "author": "nam",
   "license": "MIT",
