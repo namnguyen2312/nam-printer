@@ -1,6 +1,5 @@
-import * as EPToolkit from '../../src/utilities/EPToolkit';
-import {connectToHost} from '../../src/utilities/net-connect';
 import { NativeModules, NativeEventEmitter, Platform, Alert } from "react-native";
+import { connectToHost, exchange_text } from './src/utilities';
 const { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter, RNNetPrinter } =
   NativeModules;
 
@@ -53,7 +52,7 @@ const textTo64Buffer = (text, opts = PrinterOptions) => {
   };
 
   const fixAndroid = "\n";
-  const buffer = EPToolkit.exchange_text(text + fixAndroid, options);
+  const buffer = exchange_text(text + fixAndroid, options);
   return buffer.toString("base64");
 };
 
