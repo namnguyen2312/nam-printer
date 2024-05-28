@@ -1,5 +1,6 @@
 import { NativeModules, NativeEventEmitter, Platform, Alert } from "react-native";
-import { connectToHost, exchange_text } from './src/utilities';
+import { exchange_text } from './src/utilities';
+import {connectToHost} from './src/utilities/net-connect';
 const { BluetoothManager, BluetoothEscposPrinter, BluetoothTscPrinter, RNNetPrinter } =
   NativeModules;
 

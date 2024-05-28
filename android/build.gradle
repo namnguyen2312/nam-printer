@@ -25,7 +25,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 2338
+    compileSdkVersion 33
     buildToolsVersion "33.0.0"
 
     defaultConfig {
